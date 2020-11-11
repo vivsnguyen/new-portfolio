@@ -1,10 +1,10 @@
 module.exports = {
 
     author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-    siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
-    siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    siteTitle: "Vivi Nguyen's Portfolio Site",
+    siteShortTitle: "Vivi Nguyen", // Used as logo text in header, footer, and splash screen
+    siteDescription: "Portfolio site built using GatsbyJS.",
+    siteUrl: "https://vivinguyen.dev/",
     siteLanguage: "en_US",
     siteIcon: "content/favicon.png", // Relative to gatsby-config file
     seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
@@ -20,36 +20,32 @@ module.exports = {
     // Medium, GitHub, LinkedIn, XING, Behance
     socialMedia: [
         {
+            name: "Github",
+            url: "https://github.com/vivsnguyen"
+        },
+        {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
+            url: "https://www.linkedin.com/in/thuyvi-nguyen/"
         },
         {
             name: "Medium",
-            url: "https://konstantinmuenster.medium.com/"
-        },
-        {
-            name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
-        },
-        {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
+            url: "https://medium.com/@vivipnguyen"
         },
     ],
   
     navLinks: {
         menu: [
             {
-                name: "Articles",
-                url: "/#articles",
-            },
-            {
                 name: "About Me",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projects",
                 url: "/#projects",
+            },
+            {
+                name: "Articles",
+                url: "/#articles",
             },
         ],
         button: {
