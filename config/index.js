@@ -28,8 +28,8 @@ module.exports = {
             url: "https://www.linkedin.com/in/thuyvi-nguyen/"
         },
         {
-            name: "Medium",
-            url: "https://medium.com/@vivipnguyen"
+            name: "DevPost",
+            url: "https://devpost.com/vivsnguyen"
         },
     ],
   
@@ -44,8 +44,8 @@ module.exports = {
                 url: "/#projects",
             },
             {
-                name: "Articles",
-                url: "/#articles",
+                name: "Resume",
+                url: "https://gist.github.com/vivsnguyen/4302a00ae4935fd0077dfda26bd0067c",
             },
         ],
         button: {
